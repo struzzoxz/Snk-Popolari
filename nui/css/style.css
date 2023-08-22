@@ -1,0 +1,64 @@
+.container{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vh;
+    height: 60vh;
+    border: none;
+    border-radius: 2vh;
+    background: radial-gradient(ellipse at top, #171628, transparent),
+    radial-gradient(ellipse at left, #aa186b, transparent), radial-gradient(ellipse at left, #aa186b, transparent),radial-gradient(ellipse at right, #aa186b, transparent);
+    box-shadow: rgba(0, 0, 0, 0.3) 0vh 0.3vh 5vh, rgba(0, 0, 0, 0.22) 0vh 0.7vh 1.5vh;
+    transform: translate(-50%, -50%);
+    
+}
+
+.close{
+
+    color:rgb(231, 231, 231);
+    background: linear-gradient(to top, #2d2d2f 0%,  #4b4b4e 100%);
+    margin:50px;
+    width: 100px;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px black solid;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0px;
+    left: 900px;
+}
+
+.acquista{
+
+    color:rgb(231, 231, 231);
+    background: linear-gradient(to top, #2d2d2f 0%,  #4b4b4e 100%);
+    margin:50px;
+    width: 300px;
+    height: 150px;
+    border-radius: 30px;
+    border: 1px black solid;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: absolute;
+    top: 380px;
+    left: 340px;
+}
+
+.chiavi{
+
+    position: absolute;
+    width: 200px;
+    top: 200px;
+    left: 450px;
+}
+
+
+.logo{
+    position: absolute; 
+    width: 256px;
+    height: 256px;
+    left: 39%;
+    top:-50px
+ }
+
+
